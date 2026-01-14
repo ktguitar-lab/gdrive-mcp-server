@@ -1,14 +1,13 @@
 {
   "name": "gdrive-mcp-server",
   "version": "1.0.0",
-  "description": "Google Drive MCP Server for Claude",
+  "type": "commonjs",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "googleapis": "^129.0.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "googleapis": "^129.0.0"
   }
 }
